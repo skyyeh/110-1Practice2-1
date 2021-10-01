@@ -13,9 +13,9 @@ namespace _110_1Practice2_1
         {
             double d_Value = 66;
 
-            double d_Value2 = 5.0 * (d_Value - 32.0) / 9.0;
+            double d_Value2 = (d_Value - 32) * 5 / 9;
 
-            Response.Write("d_Value " + "= 66F " + " = " + d_Value2);
+            Response.Write("d_Value = " + d_Value.ToString() +"F =" + d_Value2.ToString() +"C");
 
         }
     }
